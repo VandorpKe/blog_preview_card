@@ -6,7 +6,7 @@ body {
 .card {
     background-color: white;
     width: 380px;
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
     border: black 1px solid;
     box-shadow: 7px 7px black;
@@ -33,7 +33,7 @@ body {
     border-radius: 20px;
 }
 h3 {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 800;
     background-color: hsl(47, 88%, 63%);
     padding: 5px 10px;
@@ -43,6 +43,7 @@ h3 {
 }
 h2{
     font-size: 0.9em;
+    font-weight: 500;
 }
 h1{
     font-size: 1.5em;
@@ -52,6 +53,7 @@ p{
     font-size: 1em;
     font-weight: 500;
     color: hsl(0, 0%, 50%);
+    line-height: 1.5;
 }
 .profile > img{
     float: left;
@@ -68,6 +70,6 @@ p{
     display: flex;
     align-items: center;
     overflow: hidden;
-    margin: 25px auto;
+    margin: 20px auto;
     height: 35px;
 }
